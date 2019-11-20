@@ -89,7 +89,7 @@ li button::-moz-focus-inner {
 
 
 li button:active{
-	box-shadow: inset 0 0 4px rgba(0,0,0,0.4),0 1px 2px rgba(255,255,255,0.2);
+	box-shadow: inset 0 0 4px rgba(0,0,0,0.4), 0 1px 2px rgba(255,255,255,0.2);
 	outline:none
 	
 }
