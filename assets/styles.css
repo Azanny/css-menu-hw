@@ -1,0 +1,135 @@
+html{
+	background:#222;
+	font-family:sans-serif;
+}
+
+main{
+	margin:5% auto;
+	width:50%;
+	min-width:510px;
+	padding:30px;
+	background-image:linear-gradient(#5c5c5c,#282828);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+.wrapper,.gradient-outline{
+	margin:auto;
+	background:#484c56;
+	border-radius:5px;
+	text-align:center;
+	box-sizing:border-box;
+}
+
+.menu-wrapper{
+	width:40%;
+	min-width:500px;
+	background-image:linear-gradient(#4b505a,#202227);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+.search-wrapper{
+	width:25%;
+	min-width:350px;
+	padding:15px 0;
+	position:relative;
+	background-image:linear-gradient(#4b505a,#202227);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.gradient-outline{
+	padding:1px;
+	box-shadow:0 2px 4px #000;
+	background-image:linear-gradient(#727a8b,#2f3239);
+	background-size:cover;
+	background-repeat:no-repeat;	
+}
+
+.gradient-outline-menu{
+	width:40%;
+	min-width:502px;
+}
+.gradient-outline-search{
+	margin-top:30px;
+	width:25%;
+	min-width:352px;
+}
+ul,li{
+	display:inline-block;
+	padding:0
+}
+
+li{
+	margin:auto 5px;
+}
+
+li button{
+	color:#f2f2f2;
+	background-image:linear-gradient(#3a404e,#16181f);
+	width:90px;
+	height:40px;
+	line-height:38px;
+	text-align:center;
+	border-radius:5px;
+	box-sizing:border-box;
+	outline:none;
+	border:1px solid #000;
+	box-shadow: inset 0 1px 2px rgba(255,255,255,0.3);
+}
+
+
+li button::-moz-focus-inner {
+  border: 0;
+}
+
+
+
+li button:active{
+	box-shadow: inset 0 0 4px rgba(0,0,0,0.4),0 1px 2px rgba(255,255,255,0.2);
+	outline:none
+	
+}
+
+input{
+	color:#f2f2f2;
+	display:inline-block;
+	background-image:linear-gradient(#1c212f,#1e2532);
+	width:185px;
+	height:35px;
+	line-height:35px;
+	border-radius:50px;
+	box-sizing:border-box;
+	padding-left:10px;
+	outline:none;
+	border:none;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4);
+}
+
+::placeholder {
+  color: #f2f2f2;
+  opacity: 1;
+}
+
+img{
+	display:inline-block;
+	height:20px;
+	width:20px;
+	margin:8px 0 0 -30px;
+	position:absolute;
+	opacity:0.3
+}
+
+/* input::after{ (не работает с самозакрывающимися тегами, окей)*/
+	/* content:''; */
+	/* display:inline-block; */
+	/* height:30px; */
+	/* width:30px; */
+	/* color:#fff; */
+	/* background-image:url("icon.png") no-repeat; */
+	/* background-size:cover; */
+	
+/* } */
